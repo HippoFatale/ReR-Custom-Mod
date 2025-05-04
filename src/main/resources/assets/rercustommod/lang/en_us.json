@@ -1,5 +1,40 @@
 {
-  "itemGroup.examplemod": "Example Mod Tab",
-  "block.examplemod.example_block": "Example Block",
-  "item.examplemod.example_item": "Example Item"
+  "item.rercustommod.rerevolution_emblem": "Re:Revolution Emblem",
+  "item.rercustommod.stealth_unit_emblem": "§1Stealth Unit§r Emblem",
+  "item.rercustommod.artillery_unit_emblem": "§6Artillery Unit§r Emblem",
+  "item.rercustommod.vanguard_unit_emblem": "§4Vanguard Unit§r Emblem",
+  "item.rercustommod.intelligence_unit_emblem": "§2Intelligence Unit§r Emblem",
+  "item.rercustommod.enforcement_unit_emblem": "§5Enforcement Unit§r Emblem",
+
+  "item.rercustommod.stealth_unit_cat_food": "§1Stealth Unit§r Cat Food",
+  "item.rercustommod.enforcement_unit_wolf_food": "§5Enforcement Unit§r Wolf Food",
+  "item.rercustommod.Vanguard_unit_bird_food": "§4Vanguard Unit§r Bird Food",
+
+  "item.rercustommod.stealth_unit_iron_helmet": "§1Stealth Unit§r Iron Helmet",
+  "item.rercustommod.stealth_unit_iron_chestplate": "§1Stealth Unit§r Iron Chestplate",
+  "item.rercustommod.stealth_unit_iron_leggings": "§1Stealth Unit§r Iron Leggings",
+  "item.rercustommod.stealth_unit_iron_boots": "§1Stealth Unit§r Iron Boots",
+
+  "item.rercustommod.artillery_unit_iron_helmet": "§6Artillery Unit§r Iron Helmet",
+  "item.rercustommod.artillery_unit_iron_chestplate": "§6Artillery Unit§r Iron Chestplate",
+  "item.rercustommod.artillery_unit_iron_leggings": "§6Artillery Unit§r Iron Leggings",
+  "item.rercustommod.artillery_unit_iron_boots": "§6Artillery Unit§r Iron Boots",
+
+  "item.rercustommod.vanguard_unit_iron_helmet": "§4Vanguard Unit§r Iron Helmet",
+  "item.rercustommod.vanguard_unit_iron_chestplate": "§4Vanguard Unit§r Iron Chestplate",
+  "item.rercustommod.vanguard_unit_iron_leggings": "§4Vanguard Unit§r Iron Leggings",
+  "item.rercustommod.vanguard_unit_iron_boots": "§4Vanguard Unit§r Iron Boots",
+
+  "item.rercustommod.intelligence_unit_iron_helmet": "§2Intelligence Unit§r Iron Helmet",
+  "item.rercustommod.intelligence_unit_iron_chestplate": "§2Intelligence Unit§r Iron Chestplate",
+  "item.rercustommod.intelligence_unit_iron_leggings": "§2Intelligence Unit§r Iron Leggings",
+  "item.rercustommod.intelligence_unit_iron_boots": "§2Intelligence Unit§r Iron Boots",
+
+  "item.rercustommod.enforcement_unit_iron_helmet": "§5Enforcement Unit§r Iron Helmet",
+  "item.rercustommod.enforcement_unit_iron_chestplate": "§5Enforcement Unit§r Iron Chestplate",
+  "item.rercustommod.enforcement_unit_iron_leggings": "§5Enforcement Unit§r Iron Leggings",
+  "item.rercustommod.enforcement_unit_iron_boots": "§5Enforcement Unit§r Iron Boots",
+
+  "creativetab.rercustommod.rerevolution_custom_items": "Re:Revolution Custom Items",
+  "creativetab.rercustommod.rerevolution_custom_armor": "Re:Revolution Custom Armor"
 }

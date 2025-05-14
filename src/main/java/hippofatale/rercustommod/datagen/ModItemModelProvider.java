@@ -53,5 +53,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ENFORCEMENT_UNIT_IRON_LEGGINGS.get());
         basicItem(ModItems.ENFORCEMENT_UNIT_IRON_BOOTS.get());
 
+        //spawn egg
+        withExistingParent(ModItems.JACK_CAT_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+        withExistingParent(ModItems.LEEON_WOLF_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+        withExistingParent(ModItems.RYU_GULL_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+
     }
 }

@@ -10,6 +10,10 @@
   "item.rercustommod.enforcement_unit_wolf_food": "§5Enforcement Unit§r Wolf Food",
   "item.rercustommod.Vanguard_unit_bird_food": "§4Vanguard Unit§r Bird Food",
 
+  "item.rercustommod.jack_cat_spawn_egg": "§1Jack Cat§r Spawn Egg",
+  "item.rercustommod.leeon_wolf_spawn_egg": "§5Leeon Wolf§r Spawn Egg",
+  "item.rercustommod.ryu_gull_spawn_egg": "§4Ryugull§r Spawn Egg",
+
   "item.rercustommod.stealth_unit_iron_helmet": "§1Stealth Unit§r Iron Helmet",
   "item.rercustommod.stealth_unit_iron_chestplate": "§1Stealth Unit§r Iron Chestplate",
   "item.rercustommod.stealth_unit_iron_leggings": "§1Stealth Unit§r Iron Leggings",
@@ -35,6 +39,12 @@
   "item.rercustommod.enforcement_unit_iron_leggings": "§5Enforcement Unit§r Iron Leggings",
   "item.rercustommod.enforcement_unit_iron_boots": "§5Enforcement Unit§r Iron Boots",
 
+
   "creativetab.rercustommod.rerevolution_custom_items": "Re:Revolution Custom Items",
-  "creativetab.rercustommod.rerevolution_custom_armor": "Re:Revolution Custom Armor"
+  "creativetab.rercustommod.rerevolution_custom_armor": "Re:Revolution Custom Armor",
+
+
+  "entity.mccourse.jack_cat": "Jack Cat",
+  "entity.mccourse.leeon_wolf": "Leeon Wolf",
+  "entity.mccourse.ryu_gull": "Ryugull"
 }

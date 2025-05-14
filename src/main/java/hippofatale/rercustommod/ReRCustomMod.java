@@ -1,7 +1,12 @@
 package hippofatale.rercustommod;
 
+import hippofatale.rercustommod.entity.ModEntities;
+import hippofatale.rercustommod.entity.client.JackCatRenderer;
+import hippofatale.rercustommod.entity.client.LeeonWolfRenderer;
+import hippofatale.rercustommod.entity.client.RyuGullRenderer;
 import hippofatale.rercustommod.item.ModCreativeModeTabs;
 import hippofatale.rercustommod.item.ModItems;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -44,6 +49,8 @@ public class ReRCustomMod
 
         ModItems.register(modEventBus);
 
+        ModEntities.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -76,7 +83,9 @@ public class ReRCustomMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-
+            EntityRenderers.register(ModEntities.JACK_CAT.get(), JackCatRenderer::new);
+            EntityRenderers.register(ModEntities.LEEON_WOLF.get(), LeeonWolfRenderer::new);
+            EntityRenderers.register(ModEntities.RYU_GULL.get(), RyuGullRenderer::new);
         }
     }
 }

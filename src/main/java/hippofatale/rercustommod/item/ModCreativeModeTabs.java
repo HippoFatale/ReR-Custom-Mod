@@ -29,6 +29,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.STEALTH_UNIT_CAT_FOOD);
                         output.accept(ModItems.ENFORCEMENT_UNIT_WOLF_FOOD);
                         output.accept(ModItems.VANGUARD_UNIT_BIRD_FOOD);
+
+                        output.accept(ModItems.JACK_CAT_SPAWN_EGG);
+                        output.accept(ModItems.LEEON_WOLF_SPAWN_EGG);
+                        output.accept(ModItems.RYU_GULL_SPAWN_EGG);
                     })
                     .build());
 

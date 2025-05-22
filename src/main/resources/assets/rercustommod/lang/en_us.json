@@ -8,7 +8,10 @@
 
   "item.rercustommod.stealth_unit_cat_food": "§1Stealth Unit§r Cat Food",
   "item.rercustommod.enforcement_unit_wolf_food": "§5Enforcement Unit§r Wolf Food",
-  "item.rercustommod.Vanguard_unit_bird_food": "§4Vanguard Unit§r Bird Food",
+  "item.rercustommod.vanguard_unit_bird_food": "§4Vanguard Unit§r Bird Food",
+
+  "item.rercustommod.stealth_unit_mre": "§1Stealth Unit§r MRE",
+  "block.rercustommod.stealth_unit_mre_box": "Box of §1Stealth Unit§r MRE",
 
   "item.rercustommod.jack_cat_spawn_egg": "§1Jack Cat§r Spawn Egg",
   "item.rercustommod.leeon_wolf_spawn_egg": "§5Leeon Wolf§r Spawn Egg",

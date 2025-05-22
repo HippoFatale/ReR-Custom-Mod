@@ -1,5 +1,6 @@
 package hippofatale.rercustommod.datagen;
 
+import hippofatale.rercustommod.block.ModBlocks;
 import hippofatale.rercustommod.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -49,28 +50,24 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_rerevolution_emblem", has(ModItems.REREVOLUTION_EMBLEM))
                 .unlockedBy("has_blue_dye", has(Items.BLUE_DYE))
                 .save(recipeOutput);
-
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ARTILLERY_UNIT_EMBLEM.get())
                 .requires(ModItems.REREVOLUTION_EMBLEM)
                 .requires(Items.ORANGE_DYE)
                 .unlockedBy("has_rerevolution_emblem", has(ModItems.REREVOLUTION_EMBLEM))
                 .unlockedBy("has_orange_dye", has(Items.ORANGE_DYE))
                 .save(recipeOutput);
-
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.VANGUARD_UNIT_EMBLEM.get())
                 .requires(ModItems.REREVOLUTION_EMBLEM)
                 .requires(Items.RED_DYE)
                 .unlockedBy("has_rerevolution_emblem", has(ModItems.REREVOLUTION_EMBLEM))
                 .unlockedBy("has_red_dye", has(Items.RED_DYE))
                 .save(recipeOutput);
-
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.INTELLIGENCE_UNIT_EMBLEM.get())
                 .requires(ModItems.REREVOLUTION_EMBLEM)
                 .requires(Items.GREEN_DYE)
                 .unlockedBy("has_rerevolution_emblem", has(ModItems.REREVOLUTION_EMBLEM))
                 .unlockedBy("has_green_dye", has(Items.GREEN_DYE))
                 .save(recipeOutput);
-
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ENFORCEMENT_UNIT_EMBLEM.get())
                 .requires(ModItems.REREVOLUTION_EMBLEM)
                 .requires(Items.PURPLE_DYE)
@@ -86,20 +83,42 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_stealth_unit_emblem", has(ModItems.STEALTH_UNIT_EMBLEM))
                 .unlockedBy("has_salmon", has(Items.SALMON))
                 .save(recipeOutput);
-
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ENFORCEMENT_UNIT_WOLF_FOOD.get())
                 .requires(ModItems.ENFORCEMENT_UNIT_EMBLEM)
                 .requires(ItemTags.WOLF_FOOD)
                 .unlockedBy("has_enforcement_unit_emblem", has(ModItems.ENFORCEMENT_UNIT_EMBLEM))
                 .unlockedBy("has_wolf_food", has(ItemTags.WOLF_FOOD))
                 .save(recipeOutput);
-
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.VANGUARD_UNIT_BIRD_FOOD.get())
                 .requires(ModItems.VANGUARD_UNIT_EMBLEM)
                 .requires(ItemTags.PARROT_FOOD)
                 .unlockedBy("has_vanguard_unit_emblem", has(ModItems.VANGUARD_UNIT_EMBLEM))
                 .unlockedBy("has_parrot_food", has(ItemTags.PARROT_FOOD))
                 .save(recipeOutput);
+
+
+        //etc
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.STEALTH_UNIT_MRE.get(), 2)
+                .pattern("CCC")
+                .pattern("CBC")
+                .pattern("CCC")
+                .define('B', Items.BREAD)
+                .define('C', Items.COCOA_BEANS)
+                .unlockedBy("has_bread", has(Items.BREAD))
+                .unlockedBy("has_cocoa_beans", has(Items.COCOA_BEANS))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.STEALTH_UNIT_MRE.get(), 9)
+                .requires(ModBlocks.STEALTH_UNIT_MRE_BOX)
+                .unlockedBy("has_stealth_unit_mre_box", has(ModBlocks.STEALTH_UNIT_MRE_BOX))
+                .save(recipeOutput, "rercustommod:stealth_unit_mre_from_box");
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModBlocks.STEALTH_UNIT_MRE_BOX.get())
+                .pattern("MMM")
+                .pattern("MMM")
+                .pattern("MMM")
+                .define('M', ModItems.STEALTH_UNIT_MRE)
+                .unlockedBy("has_stealth_unit_mre", has(ModItems.STEALTH_UNIT_MRE))
+                .save(recipeOutput);
+
 
         //iron armor
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.STEALTH_UNIT_IRON_HELMET.get())

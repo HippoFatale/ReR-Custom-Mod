@@ -26,6 +26,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ENFORCEMENT_UNIT_WOLF_FOOD.get());
         basicItem(ModItems.VANGUARD_UNIT_BIRD_FOOD.get());
 
+        //etc
+        basicItem(ModItems.STEALTH_UNIT_MRE.get());
+
         //armor
         //iron
         basicItem(ModItems.STEALTH_UNIT_IRON_HELMET.get());

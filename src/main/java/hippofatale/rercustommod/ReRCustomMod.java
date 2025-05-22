@@ -1,5 +1,6 @@
 package hippofatale.rercustommod;
 
+import hippofatale.rercustommod.block.ModBlocks;
 import hippofatale.rercustommod.entity.ModEntities;
 import hippofatale.rercustommod.entity.client.JackCatRenderer;
 import hippofatale.rercustommod.entity.client.LeeonWolfRenderer;
@@ -47,6 +48,7 @@ public class ReRCustomMod
 
         ModCreativeModeTabs.register(modEventBus);
 
+        ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
 
         ModEntities.register(modEventBus);

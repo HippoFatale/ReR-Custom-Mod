@@ -37,6 +37,10 @@ public class ModItems {
     public static final DeferredItem<Item> VANGUARD_UNIT_BIRD_FOOD = ITEMS.register("vanguard_unit_bird_food",
             () -> new ReRPetFoodItem(new Item.Properties()));
 
+    //etc
+    public static final DeferredItem<Item> STEALTH_UNIT_MRE = ITEMS.register("stealth_unit_mre",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.STEALTH_UNIT_MRE)));
+
     //armor
     //iron
     public static final DeferredItem<ReRIronArmorItem> STEALTH_UNIT_IRON_HELMET = ITEMS.register("stealth_unit_iron_helmet",

@@ -45,134 +45,134 @@ public class ModItems {
     //iron
     public static final DeferredItem<ReRArmorItem> STEALTH_UNIT_IRON_HELMET = ITEMS.register("stealth_unit_iron_helmet",
             () -> new ReRArmorItem(ArmorMaterials.IRON, ArmorItem.Type.HELMET,
-                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(11)), 0));
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(15)), 0));
     public static final DeferredItem<ReRArmorItem> STEALTH_UNIT_IRON_CHESTPLATE = ITEMS.register("stealth_unit_iron_chestplate",
             () -> new ReRArmorItem(ArmorMaterials.IRON, ArmorItem.Type.CHESTPLATE,
-                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(16)), 0));
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(15)), 0));
     public static final DeferredItem<ReRArmorItem> STEALTH_UNIT_IRON_LEGGINGS = ITEMS.register("stealth_unit_iron_leggings",
             () -> new ReRArmorItem(ArmorMaterials.IRON, ArmorItem.Type.LEGGINGS,
                     new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(15)), 0));
     public static final DeferredItem<ReRArmorItem> STEALTH_UNIT_IRON_BOOTS = ITEMS.register("stealth_unit_iron_boots",
             () -> new ReRArmorItem(ArmorMaterials.IRON, ArmorItem.Type.BOOTS,
-                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(13)), 0));
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(15)), 0));
 
     public static final DeferredItem<ReRArmorItem> ARTILLERY_UNIT_IRON_HELMET = ITEMS.register("artillery_unit_iron_helmet",
             () -> new ReRArmorItem(ArmorMaterials.IRON, ArmorItem.Type.HELMET,
-                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(11)), 1));
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(15)), 1));
     public static final DeferredItem<ReRArmorItem> ARTILLERY_UNIT_IRON_CHESTPLATE = ITEMS.register("artillery_unit_iron_chestplate",
             () -> new ReRArmorItem(ArmorMaterials.IRON, ArmorItem.Type.CHESTPLATE,
-                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(16)), 1));
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(15)), 1));
     public static final DeferredItem<ReRArmorItem> ARTILLERY_UNIT_IRON_LEGGINGS = ITEMS.register("artillery_unit_iron_leggings",
             () -> new ReRArmorItem(ArmorMaterials.IRON, ArmorItem.Type.LEGGINGS,
                     new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(15)), 1));
     public static final DeferredItem<ReRArmorItem> ARTILLERY_UNIT_IRON_BOOTS = ITEMS.register("artillery_unit_iron_boots",
             () -> new ReRArmorItem(ArmorMaterials.IRON, ArmorItem.Type.BOOTS,
-                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(13)), 1));
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(15)), 1));
 
     public static final DeferredItem<ReRArmorItem> VANGUARD_UNIT_IRON_HELMET = ITEMS.register("vanguard_unit_iron_helmet",
             () -> new ReRArmorItem(ArmorMaterials.IRON, ArmorItem.Type.HELMET,
-                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(11)), 2));
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(15)), 2));
     public static final DeferredItem<ReRArmorItem> VANGUARD_UNIT_IRON_CHESTPLATE = ITEMS.register("vanguard_unit_iron_chestplate",
             () -> new ReRArmorItem(ArmorMaterials.IRON, ArmorItem.Type.CHESTPLATE,
-                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(16)), 2));
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(15)), 2));
     public static final DeferredItem<ReRArmorItem> VANGUARD_UNIT_IRON_LEGGINGS = ITEMS.register("vanguard_unit_iron_leggings",
             () -> new ReRArmorItem(ArmorMaterials.IRON, ArmorItem.Type.LEGGINGS,
                     new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(15)), 2));
     public static final DeferredItem<ReRArmorItem> VANGUARD_UNIT_IRON_BOOTS = ITEMS.register("vanguard_unit_iron_boots",
             () -> new ReRArmorItem(ArmorMaterials.IRON, ArmorItem.Type.BOOTS,
-                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(13)), 2));
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(15)), 2));
 
     public static final DeferredItem<ReRArmorItem> INTELLIGENCE_UNIT_IRON_HELMET = ITEMS.register("intelligence_unit_iron_helmet",
             () -> new ReRArmorItem(ArmorMaterials.IRON, ArmorItem.Type.HELMET,
-                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(11)), 3));
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(15)), 3));
     public static final DeferredItem<ReRArmorItem> INTELLIGENCE_UNIT_IRON_CHESTPLATE = ITEMS.register("intelligence_unit_iron_chestplate",
             () -> new ReRArmorItem(ArmorMaterials.IRON, ArmorItem.Type.CHESTPLATE,
-                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(16)), 3));
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(15)), 3));
     public static final DeferredItem<ReRArmorItem> INTELLIGENCE_UNIT_IRON_LEGGINGS = ITEMS.register("intelligence_unit_iron_leggings",
             () -> new ReRArmorItem(ArmorMaterials.IRON, ArmorItem.Type.LEGGINGS,
                     new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(15)), 3));
     public static final DeferredItem<ReRArmorItem> INTELLIGENCE_UNIT_IRON_BOOTS = ITEMS.register("intelligence_unit_iron_boots",
             () -> new ReRArmorItem(ArmorMaterials.IRON, ArmorItem.Type.BOOTS,
-                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(13)), 3));
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(15)), 3));
 
     public static final DeferredItem<ReRArmorItem> ENFORCEMENT_UNIT_IRON_HELMET = ITEMS.register("enforcement_unit_iron_helmet",
             () -> new ReRArmorItem(ArmorMaterials.IRON, ArmorItem.Type.HELMET,
-                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(11)), 4));
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(15)), 4));
     public static final DeferredItem<ReRArmorItem> ENFORCEMENT_UNIT_IRON_CHESTPLATE = ITEMS.register("enforcement_unit_iron_chestplate",
             () -> new ReRArmorItem(ArmorMaterials.IRON, ArmorItem.Type.CHESTPLATE,
                     new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(15)), 4));
     public static final DeferredItem<ReRArmorItem> ENFORCEMENT_UNIT_IRON_LEGGINGS = ITEMS.register("enforcement_unit_iron_leggings",
             () -> new ReRArmorItem(ArmorMaterials.IRON, ArmorItem.Type.LEGGINGS,
-                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(16)), 4));
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(15)), 4));
     public static final DeferredItem<ReRArmorItem> ENFORCEMENT_UNIT_IRON_BOOTS = ITEMS.register("enforcement_unit_iron_boots",
             () -> new ReRArmorItem(ArmorMaterials.IRON, ArmorItem.Type.BOOTS,
-                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(13)), 4));
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(15)), 4));
 
     //carbon fiber(diamond)
     public static final DeferredItem<ReRArmorItem> STEALTH_UNIT_CARBON_FIBER_HELMET = ITEMS.register("stealth_unit_carbon_fiber_helmet",
             () -> new ReRArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET,
-                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(11)), 5));
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(33)), 5));
     public static final DeferredItem<ReRArmorItem> STEALTH_UNIT_CARBON_FIBER_CHESTPLATE = ITEMS.register("stealth_unit_carbon_fiber_chestplate",
             () -> new ReRArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE,
-                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(16)), 5));
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(33)), 5));
     public static final DeferredItem<ReRArmorItem> STEALTH_UNIT_CARBON_FIBER_LEGGINGS = ITEMS.register("stealth_unit_carbon_fiber_leggings",
             () -> new ReRArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS,
-                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(15)), 5));
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(33)), 5));
     public static final DeferredItem<ReRArmorItem> STEALTH_UNIT_CARBON_FIBER_BOOTS = ITEMS.register("stealth_unit_carbon_fiber_boots",
             () -> new ReRArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.BOOTS,
-                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(13)), 5));
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(33)), 5));
 
     public static final DeferredItem<ReRArmorItem> ARTILLERY_UNIT_CARBON_FIBER_HELMET = ITEMS.register("artillery_unit_carbon_fiber_helmet",
             () -> new ReRArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET,
-                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(11)), 6));
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(33)), 6));
     public static final DeferredItem<ReRArmorItem> ARTILLERY_UNIT_CARBON_FIBER_CHESTPLATE = ITEMS.register("artillery_unit_carbon_fiber_chestplate",
             () -> new ReRArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE,
-                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(16)), 6));
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(33)), 6));
     public static final DeferredItem<ReRArmorItem> ARTILLERY_UNIT_CARBON_FIBER_LEGGINGS = ITEMS.register("artillery_unit_carbon_fiber_leggings",
             () -> new ReRArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS,
-                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(15)), 6));
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(33)), 6));
     public static final DeferredItem<ReRArmorItem> ARTILLERY_UNIT_CARBON_FIBER_BOOTS = ITEMS.register("artillery_unit_carbon_fiber_boots",
             () -> new ReRArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.BOOTS,
-                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(13)), 6));
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(33)), 6));
 
     public static final DeferredItem<ReRArmorItem> VANGUARD_UNIT_CARBON_FIBER_HELMET = ITEMS.register("vanguard_unit_carbon_fiber_helmet",
             () -> new ReRArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET,
-                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(11)), 7));
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(33)), 7));
     public static final DeferredItem<ReRArmorItem> VANGUARD_UNIT_CARBON_FIBER_CHESTPLATE = ITEMS.register("vanguard_unit_carbon_fiber_chestplate",
             () -> new ReRArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE,
-                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(16)), 7));
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(33)), 7));
     public static final DeferredItem<ReRArmorItem> VANGUARD_UNIT_CARBON_FIBER_LEGGINGS = ITEMS.register("vanguard_unit_carbon_fiber_leggings",
             () -> new ReRArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS,
-                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(15)), 7));
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(33)), 7));
     public static final DeferredItem<ReRArmorItem> VANGUARD_UNIT_CARBON_FIBER_BOOTS = ITEMS.register("vanguard_unit_carbon_fiber_boots",
             () -> new ReRArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.BOOTS,
-                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(13)), 7));
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(33)), 7));
 
     public static final DeferredItem<ReRArmorItem> INTELLIGENCE_UNIT_CARBON_FIBER_HELMET = ITEMS.register("intelligence_unit_carbon_fiber_helmet",
             () -> new ReRArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET,
-                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(11)), 8));
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(33)), 8));
     public static final DeferredItem<ReRArmorItem> INTELLIGENCE_UNIT_CARBON_FIBER_CHESTPLATE = ITEMS.register("intelligence_unit_carbon_fiber_chestplate",
             () -> new ReRArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE,
-                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(16)), 8));
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(33)), 8));
     public static final DeferredItem<ReRArmorItem> INTELLIGENCE_UNIT_CARBON_FIBER_LEGGINGS = ITEMS.register("intelligence_unit_carbon_fiber_leggings",
             () -> new ReRArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS,
-                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(15)), 8));
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(33)), 8));
     public static final DeferredItem<ReRArmorItem> INTELLIGENCE_UNIT_CARBON_FIBER_BOOTS = ITEMS.register("intelligence_unit_carbon_fiber_boots",
             () -> new ReRArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.BOOTS,
-                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(13)), 8));
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(33)), 8));
 
     public static final DeferredItem<ReRArmorItem> ENFORCEMENT_UNIT_CARBON_FIBER_HELMET = ITEMS.register("enforcement_unit_carbon_fiber_helmet",
             () -> new ReRArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET,
-                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(11)), 9));
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(33)), 9));
     public static final DeferredItem<ReRArmorItem> ENFORCEMENT_UNIT_CARBON_FIBER_CHESTPLATE = ITEMS.register("enforcement_unit_carbon_fiber_chestplate",
             () -> new ReRArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE,
-                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(15)), 9));
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(33)), 9));
     public static final DeferredItem<ReRArmorItem> ENFORCEMENT_UNIT_CARBON_FIBER_LEGGINGS = ITEMS.register("enforcement_unit_carbon_fiber_leggings",
             () -> new ReRArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS,
-                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(16)), 9));
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(33)), 9));
     public static final DeferredItem<ReRArmorItem> ENFORCEMENT_UNIT_CARBON_FIBER_BOOTS = ITEMS.register("enforcement_unit_carbon_fiber_boots",
             () -> new ReRArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.BOOTS,
-                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(13)), 9));
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(33)), 9));
 
     //spawn egg
     public static final DeferredItem<Item> JACK_CAT_SPAWN_EGG = ITEMS.register("jack_cat_spawn_egg",

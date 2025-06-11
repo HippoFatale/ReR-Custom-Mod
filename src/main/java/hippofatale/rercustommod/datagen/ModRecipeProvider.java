@@ -86,9 +86,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(recipeOutput);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ENFORCEMENT_UNIT_WOLF_FOOD.get())
                 .requires(ModItems.ENFORCEMENT_UNIT_EMBLEM)
-                .requires(ItemTags.WOLF_FOOD)
+                .requires(Items.COOKED_MUTTON)
                 .unlockedBy("has_enforcement_unit_emblem", has(ModItems.ENFORCEMENT_UNIT_EMBLEM))
-                .unlockedBy("has_wolf_food", has(ItemTags.WOLF_FOOD))
+                .unlockedBy("has_cooked_mutton", has(Items.COOKED_MUTTON))
                 .save(recipeOutput);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.VANGUARD_UNIT_BIRD_FOOD.get())
                 .requires(ModItems.VANGUARD_UNIT_EMBLEM)

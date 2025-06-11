@@ -25,6 +25,11 @@ public class ModTags {
         public static final TagKey<Item> RER_IRON_LEGGINGS = createTag("rer_iron_leggings");
         public static final TagKey<Item> RER_IRON_BOOTS = createTag("rer_iron_boots");
 
+        public static final TagKey<Item> RER_CARBON_FIBER_HELMET = createTag("rer_carbon_fiber_helmet");
+        public static final TagKey<Item> RER_CARBON_FIBER_CHESTPLATE = createTag("rer_carbon_fiber_chestplate");
+        public static final TagKey<Item> RER_CARBON_FIBER_LEGGINGS = createTag("rer_carbon_fiber_leggings");
+        public static final TagKey<Item> RER_CARBON_FIBER_BOOTS = createTag("rer_carbon_fiber_boots");
+
         private static TagKey<Item> createTag(String name) {
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(ReRCustomMod.MOD_ID, name));
         }

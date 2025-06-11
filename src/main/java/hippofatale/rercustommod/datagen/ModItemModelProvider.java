@@ -56,6 +56,32 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ENFORCEMENT_UNIT_IRON_LEGGINGS.get());
         basicItem(ModItems.ENFORCEMENT_UNIT_IRON_BOOTS.get());
 
+        //carbon fiber
+        basicItem(ModItems.STEALTH_UNIT_CARBON_FIBER_HELMET.get());
+        basicItem(ModItems.STEALTH_UNIT_CARBON_FIBER_CHESTPLATE.get());
+        basicItem(ModItems.STEALTH_UNIT_CARBON_FIBER_LEGGINGS.get());
+        basicItem(ModItems.STEALTH_UNIT_CARBON_FIBER_BOOTS.get());
+
+        basicItem(ModItems.ARTILLERY_UNIT_CARBON_FIBER_HELMET.get());
+        basicItem(ModItems.ARTILLERY_UNIT_CARBON_FIBER_CHESTPLATE.get());
+        basicItem(ModItems.ARTILLERY_UNIT_CARBON_FIBER_LEGGINGS.get());
+        basicItem(ModItems.ARTILLERY_UNIT_CARBON_FIBER_BOOTS.get());
+
+        basicItem(ModItems.VANGUARD_UNIT_CARBON_FIBER_HELMET.get());
+        basicItem(ModItems.VANGUARD_UNIT_CARBON_FIBER_CHESTPLATE.get());
+        basicItem(ModItems.VANGUARD_UNIT_CARBON_FIBER_LEGGINGS.get());
+        basicItem(ModItems.VANGUARD_UNIT_CARBON_FIBER_BOOTS.get());
+
+        basicItem(ModItems.INTELLIGENCE_UNIT_CARBON_FIBER_HELMET.get());
+        basicItem(ModItems.INTELLIGENCE_UNIT_CARBON_FIBER_CHESTPLATE.get());
+        basicItem(ModItems.INTELLIGENCE_UNIT_CARBON_FIBER_LEGGINGS.get());
+        basicItem(ModItems.INTELLIGENCE_UNIT_CARBON_FIBER_BOOTS.get());
+
+        basicItem(ModItems.ENFORCEMENT_UNIT_CARBON_FIBER_HELMET.get());
+        basicItem(ModItems.ENFORCEMENT_UNIT_CARBON_FIBER_CHESTPLATE.get());
+        basicItem(ModItems.ENFORCEMENT_UNIT_CARBON_FIBER_LEGGINGS.get());
+        basicItem(ModItems.ENFORCEMENT_UNIT_CARBON_FIBER_BOOTS.get());
+
         //spawn egg
         withExistingParent(ModItems.JACK_CAT_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
         withExistingParent(ModItems.LEEON_WOLF_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));

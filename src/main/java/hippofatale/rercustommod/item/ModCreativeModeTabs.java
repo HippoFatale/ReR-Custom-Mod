@@ -46,6 +46,7 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(ReRCustomMod.MOD_ID, "rerevolution_custom_items_tab"))
                     .title(Component.translatable("creativetab.rercustommod.rerevolution_custom_armor"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        //iron
                         output.accept(ModItems.STEALTH_UNIT_IRON_HELMET);
                         output.accept(ModItems.STEALTH_UNIT_IRON_CHESTPLATE);
                         output.accept(ModItems.STEALTH_UNIT_IRON_LEGGINGS);
@@ -70,6 +71,32 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ENFORCEMENT_UNIT_IRON_CHESTPLATE);
                         output.accept(ModItems.ENFORCEMENT_UNIT_IRON_LEGGINGS);
                         output.accept(ModItems.ENFORCEMENT_UNIT_IRON_BOOTS);
+
+                        //carbon fiber
+                        output.accept(ModItems.STEALTH_UNIT_CARBON_FIBER_HELMET);
+                        output.accept(ModItems.STEALTH_UNIT_CARBON_FIBER_CHESTPLATE);
+                        output.accept(ModItems.STEALTH_UNIT_CARBON_FIBER_LEGGINGS);
+                        output.accept(ModItems.STEALTH_UNIT_CARBON_FIBER_BOOTS);
+
+                        output.accept(ModItems.ARTILLERY_UNIT_CARBON_FIBER_HELMET);
+                        output.accept(ModItems.ARTILLERY_UNIT_CARBON_FIBER_CHESTPLATE);
+                        output.accept(ModItems.ARTILLERY_UNIT_CARBON_FIBER_LEGGINGS);
+                        output.accept(ModItems.ARTILLERY_UNIT_CARBON_FIBER_BOOTS);
+
+                        output.accept(ModItems.VANGUARD_UNIT_CARBON_FIBER_HELMET);
+                        output.accept(ModItems.VANGUARD_UNIT_CARBON_FIBER_CHESTPLATE);
+                        output.accept(ModItems.VANGUARD_UNIT_CARBON_FIBER_LEGGINGS);
+                        output.accept(ModItems.VANGUARD_UNIT_CARBON_FIBER_BOOTS);
+
+                        output.accept(ModItems.INTELLIGENCE_UNIT_CARBON_FIBER_HELMET);
+                        output.accept(ModItems.INTELLIGENCE_UNIT_CARBON_FIBER_CHESTPLATE);
+                        output.accept(ModItems.INTELLIGENCE_UNIT_CARBON_FIBER_LEGGINGS);
+                        output.accept(ModItems.INTELLIGENCE_UNIT_CARBON_FIBER_BOOTS);
+
+                        output.accept(ModItems.ENFORCEMENT_UNIT_CARBON_FIBER_HELMET);
+                        output.accept(ModItems.ENFORCEMENT_UNIT_CARBON_FIBER_CHESTPLATE);
+                        output.accept(ModItems.ENFORCEMENT_UNIT_CARBON_FIBER_LEGGINGS);
+                        output.accept(ModItems.ENFORCEMENT_UNIT_CARBON_FIBER_BOOTS);
 
                     })
                     .build());

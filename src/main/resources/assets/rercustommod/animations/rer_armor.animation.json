@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.rer_iron_armor.idle": {
+		"animation.rer_armor.idle": {
 			"loop": true
 		}
 	},

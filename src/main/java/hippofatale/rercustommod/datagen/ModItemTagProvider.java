@@ -64,6 +64,35 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.INTELLIGENCE_UNIT_IRON_BOOTS.get())
                 .add(ModItems.ENFORCEMENT_UNIT_IRON_BOOTS.get())
                 ;
+        //carbon fiber armor
+        tag(ModTags.Items.RER_CARBON_FIBER_HELMET)
+                .add(ModItems.STEALTH_UNIT_CARBON_FIBER_HELMET.get())
+                .add(ModItems.ARTILLERY_UNIT_CARBON_FIBER_HELMET.get())
+                .add(ModItems.VANGUARD_UNIT_CARBON_FIBER_HELMET.get())
+                .add(ModItems.INTELLIGENCE_UNIT_CARBON_FIBER_HELMET.get())
+                .add(ModItems.ENFORCEMENT_UNIT_CARBON_FIBER_HELMET.get())
+                ;
+        tag(ModTags.Items.RER_CARBON_FIBER_CHESTPLATE)
+                .add(ModItems.STEALTH_UNIT_CARBON_FIBER_CHESTPLATE.get())
+                .add(ModItems.ARTILLERY_UNIT_CARBON_FIBER_CHESTPLATE.get())
+                .add(ModItems.VANGUARD_UNIT_CARBON_FIBER_CHESTPLATE.get())
+                .add(ModItems.INTELLIGENCE_UNIT_CARBON_FIBER_CHESTPLATE.get())
+                .add(ModItems.ENFORCEMENT_UNIT_CARBON_FIBER_CHESTPLATE.get())
+                ;
+        tag(ModTags.Items.RER_CARBON_FIBER_LEGGINGS)
+                .add(ModItems.STEALTH_UNIT_CARBON_FIBER_LEGGINGS.get())
+                .add(ModItems.ARTILLERY_UNIT_CARBON_FIBER_LEGGINGS.get())
+                .add(ModItems.VANGUARD_UNIT_CARBON_FIBER_LEGGINGS.get())
+                .add(ModItems.INTELLIGENCE_UNIT_CARBON_FIBER_LEGGINGS.get())
+                .add(ModItems.ENFORCEMENT_UNIT_CARBON_FIBER_LEGGINGS.get())
+                ;
+        tag(ModTags.Items.RER_CARBON_FIBER_BOOTS)
+                .add(ModItems.STEALTH_UNIT_CARBON_FIBER_BOOTS.get())
+                .add(ModItems.ARTILLERY_UNIT_CARBON_FIBER_BOOTS.get())
+                .add(ModItems.VANGUARD_UNIT_CARBON_FIBER_BOOTS.get())
+                .add(ModItems.INTELLIGENCE_UNIT_CARBON_FIBER_BOOTS.get())
+                .add(ModItems.ENFORCEMENT_UNIT_CARBON_FIBER_BOOTS.get())
+                ;
 
     }
 }

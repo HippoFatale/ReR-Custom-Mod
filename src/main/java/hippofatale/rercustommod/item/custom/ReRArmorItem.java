@@ -1,6 +1,6 @@
 package hippofatale.rercustommod.item.custom;
 
-import hippofatale.rercustommod.item.client.RerIronArmorRenderer;
+import hippofatale.rercustommod.item.client.ReRArmorRenderer;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.core.Holder;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -17,24 +17,24 @@ import software.bernie.geckolib.animation.*;
 
 import java.util.function.Consumer;
 
-public class ReRIronArmorItem extends ArmorItem implements GeoItem {
+public class ReRArmorItem extends ArmorItem implements GeoItem {
     private AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
-    int unitIndex;
+    int textureIndex;
 
-    public ReRIronArmorItem(Holder<ArmorMaterial> material, Type type, Properties properties, int unitNum) {
+    public ReRArmorItem(Holder<ArmorMaterial> material, Type type, Properties properties, int textureNum) {
         super(material, type, properties);
-        unitIndex = unitNum;
+        textureIndex = textureNum;
     }
 
     @Override
     public void initializeClient(Consumer<IClientItemExtensions> consumer) {
         consumer.accept(new IClientItemExtensions() {
-            private RerIronArmorRenderer renderer;
+            private ReRArmorRenderer renderer;
 
             @Override
             public @NotNull HumanoidModel<?> getHumanoidArmorModel(LivingEntity livingEntity, ItemStack itemStack, EquipmentSlot equipmentSlot, HumanoidModel<?> original) {
                 if (this.renderer == null) {
-                    this.renderer = new RerIronArmorRenderer(unitIndex);
+                    this.renderer = new ReRArmorRenderer(textureIndex);
                 }
 
                 this.renderer.prepForRender(livingEntity, itemStack, equipmentSlot, original);

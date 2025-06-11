@@ -4,13 +4,14 @@ import hippofatale.rercustommod.ReRCustomMod;
 import hippofatale.rercustommod.entity.ModEntities;
 import hippofatale.rercustommod.item.custom.ReRArmorItem;
 import hippofatale.rercustommod.item.custom.ReRPetFoodItem;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.ArmorMaterials;
-import net.minecraft.world.item.Item;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.List;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ReRCustomMod.MOD_ID);
@@ -31,15 +32,39 @@ public class ModItems {
 
     //pet food
     public static final DeferredItem<Item> STEALTH_UNIT_CAT_FOOD = ITEMS.register("stealth_unit_cat_food",
-            () -> new ReRPetFoodItem(new Item.Properties()));
+            () -> new ReRPetFoodItem(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.rercustommod.stealth_unit_cat_food"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
     public static final DeferredItem<Item> ENFORCEMENT_UNIT_WOLF_FOOD = ITEMS.register("enforcement_unit_wolf_food",
-            () -> new ReRPetFoodItem(new Item.Properties()));
+            () -> new ReRPetFoodItem(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.rercustommod.enforcement_unit_wolf_food"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
     public static final DeferredItem<Item> VANGUARD_UNIT_BIRD_FOOD = ITEMS.register("vanguard_unit_bird_food",
-            () -> new ReRPetFoodItem(new Item.Properties()));
+            () -> new ReRPetFoodItem(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.rercustommod.vanguard_unit_bird_food"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
 
     //etc
     public static final DeferredItem<Item> STEALTH_UNIT_MRE = ITEMS.register("stealth_unit_mre",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.STEALTH_UNIT_MRE)));
+            () -> new Item(new Item.Properties().food(ModFoodProperties.STEALTH_UNIT_MRE)) {
+                @Override
+                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.rercustommod.stealth_unit_mre"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
 
     //armor
     //iron

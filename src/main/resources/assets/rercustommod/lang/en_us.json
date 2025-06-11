@@ -67,6 +67,12 @@
   "creativetab.rercustommod.rerevolution_custom_armor": "Re:Revolution Custom Armor",
 
 
+  "tooltip.rercustommod.stealth_unit_cat_food": "§7Made from fresh salmon.§r",
+  "tooltip.rercustommod.enforcement_unit_wolf_food": "§7Eggplant-free!§r",
+  "tooltip.rercustommod.vanguard_unit_bird_food": "§7Edible for dragons too.§r",
+  "tooltip.rercustommod.stealth_unit_mre": "§7A mini-chocolate-cake.§r",
+
+
   "entity.mccourse.jack_cat": "Jack Cat",
   "entity.mccourse.leeon_wolf": "Leeon Wolf",
   "entity.mccourse.ryu_gull": "Ryugull"

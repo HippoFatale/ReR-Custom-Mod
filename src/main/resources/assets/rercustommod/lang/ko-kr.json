@@ -1,0 +1,79 @@
+{
+  "item.rercustommod.rerevolution_emblem": "리레볼루션 엠블럼",
+  "item.rercustommod.stealth_unit_emblem": "§1은밀기동대§r 엠블럼",
+  "item.rercustommod.artillery_unit_emblem": "§6중화포격대§r 엠블럼",
+  "item.rercustommod.vanguard_unit_emblem": "§4선봉타격대§r 엠블럼",
+  "item.rercustommod.intelligence_unit_emblem": "§2정보지원대§r 엠블럼",
+  "item.rercustommod.enforcement_unit_emblem": "§5비밀단속기관§r 엠블럼",
+
+  "item.rercustommod.stealth_unit_cat_food": "§1은밀기동대§r 고양이 간식",
+  "item.rercustommod.enforcement_unit_wolf_food": "§5비밀단속기관§r 늑대 사료",
+  "item.rercustommod.vanguard_unit_bird_food": "§4선봉타격대§r 새 모이",
+
+  "item.rercustommod.stealth_unit_mre": "§1은밀기동대§r 전투식량",
+  "block.rercustommod.stealth_unit_mre_box": "§1은밀기동대§r 전투식량 상자",
+
+  "item.rercustommod.jack_cat_spawn_egg": "§1잭냥이§r 생성 알",
+  "item.rercustommod.leeon_wolf_spawn_egg": "§5리온 늑대§r 생성 알",
+  "item.rercustommod.ryu_gull_spawn_egg": "§4류매기§r 생성 알",
+
+  "item.rercustommod.stealth_unit_iron_helmet": "§1은밀기동대§r 철 투구",
+  "item.rercustommod.stealth_unit_iron_chestplate": "§1은밀기동대§r 철 흉갑",
+  "item.rercustommod.stealth_unit_iron_leggings": "§1은밀기동대§r 철 레깅스",
+  "item.rercustommod.stealth_unit_iron_boots": "§1은밀기동대§r 철 부츠",
+  "item.rercustommod.stealth_unit_carbon_fiber_helmet": "§1은밀기동대§r 탄소섬유 투구",
+  "item.rercustommod.stealth_unit_carbon_fiber_chestplate": "§1은밀기동대§r 탄소섬유 흉갑",
+  "item.rercustommod.stealth_unit_carbon_fiber_leggings": "§1은밀기동대§r 탄소섬유 레깅스",
+  "item.rercustommod.stealth_unit_carbon_fiber_boots": "§1은밀기동대§r 탄소섬유 부츠",
+
+  "item.rercustommod.artillery_unit_iron_helmet": "§6중화포격대§r 철 투구",
+  "item.rercustommod.artillery_unit_iron_chestplate": "§6중화포격대§r 철 흉갑",
+  "item.rercustommod.artillery_unit_iron_leggings": "§6중화포격대§r 철 레깅스",
+  "item.rercustommod.artillery_unit_iron_boots": "§6중화포격대§r 철 부츠",
+  "item.rercustommod.artillery_unit_carbon_fiber_helmet": "§6중화포격대§r 탄소섬유 투구",
+  "item.rercustommod.artillery_unit_carbon_fiber_chestplate": "§6중화포격대§r 탄소섬유 흉갑",
+  "item.rercustommod.artillery_unit_carbon_fiber_leggings": "§6중화포격대§r 탄소섬유 레깅스",
+  "item.rercustommod.artillery_unit_carbon_fiber_boots": "§6중화포격대§r 탄소섬유 부츠",
+
+  "item.rercustommod.vanguard_unit_iron_helmet": "§4선봉타격대§r 철 투구",
+  "item.rercustommod.vanguard_unit_iron_chestplate": "§4선봉타격대§r 철 흉갑",
+  "item.rercustommod.vanguard_unit_iron_leggings": "§4선봉타격대§r 철 레깅스",
+  "item.rercustommod.vanguard_unit_iron_boots": "§4선봉타격대§r 철 부츠",
+  "item.rercustommod.vanguard_unit_carbon_fiber_helmet": "§4선봉타격대§r 탄소섬유 투구",
+  "item.rercustommod.vanguard_unit_carbon_fiber_chestplate": "§4선봉타격대§r 탄소섬유 흉갑",
+  "item.rercustommod.vanguard_unit_carbon_fiber_leggings": "§4선봉타격대§r 탄소섬유 레깅스",
+  "item.rercustommod.vanguard_unit_carbon_fiber_boots": "§4선봉타격대§r 탄소섬유 부츠",
+
+  "item.rercustommod.intelligence_unit_iron_helmet": "§2정보지원대§r 철 투구",
+  "item.rercustommod.intelligence_unit_iron_chestplate": "§2정보지원대§r 철 흉갑",
+  "item.rercustommod.intelligence_unit_iron_leggings": "§2정보지원대§r 철 레깅스",
+  "item.rercustommod.intelligence_unit_iron_boots": "§2정보지원대§r 철 부츠",
+  "item.rercustommod.intelligence_unit_carbon_fiber_helmet": "§2정보지원대§r 탄소섬유 투구",
+  "item.rercustommod.intelligence_unit_carbon_fiber_chestplate": "§2정보지원대§r 탄소섬유 흉갑",
+  "item.rercustommod.intelligence_unit_carbon_fiber_leggings": "§2정보지원대§r 탄소섬유 레깅스",
+  "item.rercustommod.intelligence_unit_carbon_fiber_boots": "§2정보지원대§r 탄소섬유 부츠",
+
+  "item.rercustommod.enforcement_unit_iron_helmet": "§5비밀단속기관§r 철 투구",
+  "item.rercustommod.enforcement_unit_iron_chestplate": "§5비밀단속기관§r 철 흉갑",
+  "item.rercustommod.enforcement_unit_iron_leggings": "§5비밀단속기관§r 철 레깅스",
+  "item.rercustommod.enforcement_unit_iron_boots": "§5비밀단속기관§r 철 부츠",
+  "item.rercustommod.enforcement_unit_carbon_fiber_helmet": "§5비밀단속기관§r 탄소섬유 투구",
+  "item.rercustommod.enforcement_unit_carbon_fiber_chestplate": "§5비밀단속기관§r 탄소섬유 흉갑",
+  "item.rercustommod.enforcement_unit_carbon_fiber_leggings": "§5비밀단속기관§r 탄소섬유 레깅스",
+  "item.rercustommod.enforcement_unit_carbon_fiber_boots": "§5비밀단속기관§r 탄소섬유 부츠",
+
+
+  "creativetab.rercustommod.rerevolution_custom_items": "리레볼루션 모드 아이템",
+  "creativetab.rercustommod.rerevolution_custom_armor": "리레볼루션 모드 갑옷",
+
+
+  "tooltip.rercustommod.stealth_unit_cat_food": "§7신선한 생연어로 만들었습니다.§r",
+  "tooltip.rercustommod.enforcement_unit_wolf_food": "§7가지 추출물 0% 함유!§r",
+  "tooltip.rercustommod.vanguard_unit_bird_food": "§7드래곤도 먹을 수 있습니다.§r",
+  "tooltip.rercustommod.stealth_unit_mre": "§7미니 초코 케이크입니다.§r",
+
+
+  "entity.mccourse.jack_cat": "잭냥이",
+  "entity.mccourse.leeon_wolf": "리온 늑대",
+  "entity.mccourse.ryu_gull": "류매기"
+}

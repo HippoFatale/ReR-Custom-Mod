@@ -2,6 +2,7 @@ package hippofatale.rercustommod.datagen;
 
 import hippofatale.rercustommod.block.ModBlocks;
 import hippofatale.rercustommod.item.ModItems;
+import hippofatale.rercustommod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
@@ -246,22 +247,207 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_iron_boots", has(Items.IRON_BOOTS))
                 .save(recipeOutput);
 
-//        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.IRON_HELMET)
-//                .requires(ModTags.Items.RER_IRON_HELMET)
-//                .unlockedBy("has_rer_iron_helmet", has(ModTags.Items.RER_IRON_HELMET))
-//                .save(recipeOutput);
-//        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.IRON_CHESTPLATE)
-//                .requires(ModTags.Items.RER_IRON_CHESTPLATE)
-//                .unlockedBy("has_rer_iron_chestplate", has(ModTags.Items.RER_IRON_CHESTPLATE))
-//                .save(recipeOutput);
-//        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.IRON_LEGGINGS)
-//                .requires(ModTags.Items.RER_IRON_LEGGINGS)
-//                .unlockedBy("has_rer_iron_leggings", has(ModTags.Items.RER_IRON_LEGGINGS))
-//                .save(recipeOutput);
-//        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.IRON_BOOTS)
-//                .requires(ModTags.Items.RER_IRON_BOOTS)
-//                .unlockedBy("has_rer_iron_helmet", has(ModTags.Items.RER_IRON_BOOTS))
-//                .save(recipeOutput);
+        //carbon fiber armor
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.STEALTH_UNIT_CARBON_FIBER_HELMET.get())
+                .requires(ModItems.STEALTH_UNIT_EMBLEM)
+                .requires(Items.DIAMOND_HELMET)
+                .requires(ItemTags.COALS)
+                .unlockedBy("has_stealth_unit_emblem", has(ModItems.STEALTH_UNIT_EMBLEM))
+                .unlockedBy("has_diamond_helmet", has(Items.DIAMOND_HELMET))
+                .unlockedBy("has_coals", has(ItemTags.COALS))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.STEALTH_UNIT_CARBON_FIBER_CHESTPLATE.get())
+                .requires(ModItems.STEALTH_UNIT_EMBLEM)
+                .requires(Items.DIAMOND_CHESTPLATE)
+                .requires(ItemTags.COALS)
+                .unlockedBy("has_stealth_unit_emblem", has(ModItems.STEALTH_UNIT_EMBLEM))
+                .unlockedBy("has_diamond_chestplate", has(Items.DIAMOND_CHESTPLATE))
+                .unlockedBy("has_coals", has(ItemTags.COALS))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.STEALTH_UNIT_CARBON_FIBER_LEGGINGS.get())
+                .requires(ModItems.STEALTH_UNIT_EMBLEM)
+                .requires(Items.DIAMOND_LEGGINGS)
+                .requires(ItemTags.COALS)
+                .unlockedBy("has_stealth_unit_emblem", has(ModItems.STEALTH_UNIT_EMBLEM))
+                .unlockedBy("has_diamond_leggings", has(Items.DIAMOND_LEGGINGS))
+                .unlockedBy("has_coals", has(ItemTags.COALS))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.STEALTH_UNIT_CARBON_FIBER_BOOTS.get())
+                .requires(ModItems.STEALTH_UNIT_EMBLEM)
+                .requires(Items.DIAMOND_BOOTS)
+                .requires(ItemTags.COALS)
+                .unlockedBy("has_stealth_unit_emblem", has(ModItems.STEALTH_UNIT_EMBLEM))
+                .unlockedBy("has_diamond_boots", has(Items.DIAMOND_BOOTS))
+                .unlockedBy("has_coals", has(ItemTags.COALS))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ARTILLERY_UNIT_CARBON_FIBER_HELMET.get())
+                .requires(ModItems.ARTILLERY_UNIT_EMBLEM)
+                .requires(Items.DIAMOND_HELMET)
+                .requires(ItemTags.COALS)
+                .unlockedBy("has_artillery_unit_emblem", has(ModItems.ARTILLERY_UNIT_EMBLEM))
+                .unlockedBy("has_diamond_helmet", has(Items.DIAMOND_HELMET))
+                .unlockedBy("has_coals", has(ItemTags.COALS))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ARTILLERY_UNIT_CARBON_FIBER_CHESTPLATE.get())
+                .requires(ModItems.ARTILLERY_UNIT_EMBLEM)
+                .requires(Items.DIAMOND_CHESTPLATE)
+                .requires(ItemTags.COALS)
+                .unlockedBy("has_artillery_unit_emblem", has(ModItems.ARTILLERY_UNIT_EMBLEM))
+                .unlockedBy("has_diamond_chestplate", has(Items.DIAMOND_CHESTPLATE))
+                .unlockedBy("has_coals", has(ItemTags.COALS))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ARTILLERY_UNIT_CARBON_FIBER_LEGGINGS.get())
+                .requires(ModItems.ARTILLERY_UNIT_EMBLEM)
+                .requires(Items.DIAMOND_LEGGINGS)
+                .requires(ItemTags.COALS)
+                .unlockedBy("has_artillery_unit_emblem", has(ModItems.ARTILLERY_UNIT_EMBLEM))
+                .unlockedBy("has_diamond_leggings", has(Items.DIAMOND_LEGGINGS))
+                .unlockedBy("has_coals", has(ItemTags.COALS))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ARTILLERY_UNIT_CARBON_FIBER_BOOTS.get())
+                .requires(ModItems.ARTILLERY_UNIT_EMBLEM)
+                .requires(Items.DIAMOND_BOOTS)
+                .requires(ItemTags.COALS)
+                .unlockedBy("has_artillery_unit_emblem", has(ModItems.ARTILLERY_UNIT_EMBLEM))
+                .unlockedBy("has_diamond_boots", has(Items.DIAMOND_BOOTS))
+                .unlockedBy("has_coals", has(ItemTags.COALS))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.VANGUARD_UNIT_CARBON_FIBER_HELMET.get())
+                .requires(ModItems.VANGUARD_UNIT_EMBLEM)
+                .requires(Items.DIAMOND_HELMET)
+                .requires(ItemTags.COALS)
+                .unlockedBy("has_vanguard_unit_emblem", has(ModItems.VANGUARD_UNIT_EMBLEM))
+                .unlockedBy("has_diamond_helmet", has(Items.DIAMOND_HELMET))
+                .unlockedBy("has_coals", has(ItemTags.COALS))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.VANGUARD_UNIT_CARBON_FIBER_CHESTPLATE.get())
+                .requires(ModItems.VANGUARD_UNIT_EMBLEM)
+                .requires(Items.DIAMOND_CHESTPLATE)
+                .requires(ItemTags.COALS)
+                .unlockedBy("has_vanguard_unit_emblem", has(ModItems.VANGUARD_UNIT_EMBLEM))
+                .unlockedBy("has_diamond_chestplate", has(Items.DIAMOND_CHESTPLATE))
+                .unlockedBy("has_coals", has(ItemTags.COALS))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.VANGUARD_UNIT_CARBON_FIBER_LEGGINGS.get())
+                .requires(ModItems.VANGUARD_UNIT_EMBLEM)
+                .requires(Items.DIAMOND_LEGGINGS)
+                .requires(ItemTags.COALS)
+                .unlockedBy("has_vanguard_unit_emblem", has(ModItems.VANGUARD_UNIT_EMBLEM))
+                .unlockedBy("has_diamond_leggings", has(Items.DIAMOND_LEGGINGS))
+                .unlockedBy("has_coals", has(ItemTags.COALS))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.VANGUARD_UNIT_CARBON_FIBER_BOOTS.get())
+                .requires(ModItems.VANGUARD_UNIT_EMBLEM)
+                .requires(Items.DIAMOND_BOOTS)
+                .requires(ItemTags.COALS)
+                .unlockedBy("has_vanguard_unit_emblem", has(ModItems.VANGUARD_UNIT_EMBLEM))
+                .unlockedBy("has_diamond_boots", has(Items.DIAMOND_BOOTS))
+                .unlockedBy("has_coals", has(ItemTags.COALS))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.INTELLIGENCE_UNIT_CARBON_FIBER_HELMET.get())
+                .requires(ModItems.INTELLIGENCE_UNIT_EMBLEM)
+                .requires(Items.DIAMOND_HELMET)
+                .requires(ItemTags.COALS)
+                .unlockedBy("has_intelligence_unit_emblem", has(ModItems.INTELLIGENCE_UNIT_EMBLEM))
+                .unlockedBy("has_diamond_helmet", has(Items.DIAMOND_HELMET))
+                .unlockedBy("has_coals", has(ItemTags.COALS))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.INTELLIGENCE_UNIT_CARBON_FIBER_CHESTPLATE.get())
+                .requires(ModItems.INTELLIGENCE_UNIT_EMBLEM)
+                .requires(Items.DIAMOND_CHESTPLATE)
+                .requires(ItemTags.COALS)
+                .unlockedBy("has_intelligence_unit_emblem", has(ModItems.INTELLIGENCE_UNIT_EMBLEM))
+                .unlockedBy("has_diamond_chestplate", has(Items.DIAMOND_CHESTPLATE))
+                .unlockedBy("has_coals", has(ItemTags.COALS))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.INTELLIGENCE_UNIT_CARBON_FIBER_LEGGINGS.get())
+                .requires(ModItems.INTELLIGENCE_UNIT_EMBLEM)
+                .requires(Items.DIAMOND_LEGGINGS)
+                .requires(ItemTags.COALS)
+                .unlockedBy("has_intelligence_unit_emblem", has(ModItems.INTELLIGENCE_UNIT_EMBLEM))
+                .unlockedBy("has_diamond_leggings", has(Items.DIAMOND_LEGGINGS))
+                .unlockedBy("has_coals", has(ItemTags.COALS))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.INTELLIGENCE_UNIT_CARBON_FIBER_BOOTS.get())
+                .requires(ModItems.INTELLIGENCE_UNIT_EMBLEM)
+                .requires(Items.DIAMOND_BOOTS)
+                .requires(ItemTags.COALS)
+                .unlockedBy("has_intelligence_unit_emblem", has(ModItems.INTELLIGENCE_UNIT_EMBLEM))
+                .unlockedBy("has_diamond_boots", has(Items.DIAMOND_BOOTS))
+                .unlockedBy("has_coals", has(ItemTags.COALS))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ENFORCEMENT_UNIT_CARBON_FIBER_HELMET.get())
+                .requires(ModItems.ENFORCEMENT_UNIT_EMBLEM)
+                .requires(Items.DIAMOND_HELMET)
+                .requires(ItemTags.COALS)
+                .unlockedBy("has_enforcement_unit_emblem", has(ModItems.ENFORCEMENT_UNIT_EMBLEM))
+                .unlockedBy("has_diamond_helmet", has(Items.DIAMOND_HELMET))
+                .unlockedBy("has_coals", has(ItemTags.COALS))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ENFORCEMENT_UNIT_CARBON_FIBER_CHESTPLATE.get())
+                .requires(ModItems.ENFORCEMENT_UNIT_EMBLEM)
+                .requires(Items.DIAMOND_CHESTPLATE)
+                .requires(ItemTags.COALS)
+                .unlockedBy("has_enforcement_unit_emblem", has(ModItems.ENFORCEMENT_UNIT_EMBLEM))
+                .unlockedBy("has_diamond_chestplate", has(Items.DIAMOND_CHESTPLATE))
+                .unlockedBy("has_coals", has(ItemTags.COALS))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ENFORCEMENT_UNIT_CARBON_FIBER_LEGGINGS.get())
+                .requires(ModItems.ENFORCEMENT_UNIT_EMBLEM)
+                .requires(Items.DIAMOND_LEGGINGS)
+                .requires(ItemTags.COALS)
+                .unlockedBy("has_enforcement_unit_emblem", has(ModItems.ENFORCEMENT_UNIT_EMBLEM))
+                .unlockedBy("has_diamond_leggings", has(Items.DIAMOND_LEGGINGS))
+                .unlockedBy("has_coals", has(ItemTags.COALS))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ENFORCEMENT_UNIT_CARBON_FIBER_BOOTS.get())
+                .requires(ModItems.ENFORCEMENT_UNIT_EMBLEM)
+                .requires(Items.DIAMOND_BOOTS)
+                .requires(ItemTags.COALS)
+                .unlockedBy("has_enforcement_unit_emblem", has(ModItems.ENFORCEMENT_UNIT_EMBLEM))
+                .unlockedBy("has_diamond_boots", has(Items.DIAMOND_BOOTS))
+                .unlockedBy("has_coals", has(ItemTags.COALS))
+                .save(recipeOutput);
+
+        //rer iron armor to iron armor
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.IRON_HELMET)
+                .requires(ModTags.Items.RER_IRON_HELMET)
+                .unlockedBy("has_rer_iron_helmet", has(ModTags.Items.RER_IRON_HELMET))
+                .save(recipeOutput, "rercustommod:iron_helmet_from_rer_iron_helmet");
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.IRON_CHESTPLATE)
+                .requires(ModTags.Items.RER_IRON_CHESTPLATE)
+                .unlockedBy("has_rer_iron_chestplate", has(ModTags.Items.RER_IRON_CHESTPLATE))
+                .save(recipeOutput, "rercustommod:iron_chestplate_from_rer_iron_chestplate");
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.IRON_LEGGINGS)
+                .requires(ModTags.Items.RER_IRON_LEGGINGS)
+                .unlockedBy("has_rer_iron_leggings", has(ModTags.Items.RER_IRON_LEGGINGS))
+                .save(recipeOutput, "rercustommod:iron_leggings_from_rer_iron_leggings");
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.IRON_BOOTS)
+                .requires(ModTags.Items.RER_IRON_BOOTS)
+                .unlockedBy("has_rer_iron_helmet", has(ModTags.Items.RER_IRON_BOOTS))
+                .save(recipeOutput, "rercustommod:iron_boots_from_rer_iron_boots");
+
+        //rer carbon fiber armor to diamond armor
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.DIAMOND_HELMET)
+                .requires(ModTags.Items.RER_CARBON_FIBER_HELMET)
+                .unlockedBy("has_rer_carbon_fiber_helmet", has(ModTags.Items.RER_CARBON_FIBER_HELMET))
+                .save(recipeOutput, "rercustommod:diamond_helmet_from_rer_carbon_fiber_helmet");
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.DIAMOND_CHESTPLATE)
+                .requires(ModTags.Items.RER_CARBON_FIBER_CHESTPLATE)
+                .unlockedBy("has_rer_carbon_fiber_chestplate", has(ModTags.Items.RER_CARBON_FIBER_CHESTPLATE))
+                .save(recipeOutput, "rercustommod:diamond_chestplate_from_rer_carbon_fiber_chestplate");
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.DIAMOND_LEGGINGS)
+                .requires(ModTags.Items.RER_CARBON_FIBER_LEGGINGS)
+                .unlockedBy("has_rer_carbon_fiber_leggings", has(ModTags.Items.RER_CARBON_FIBER_LEGGINGS))
+                .save(recipeOutput, "rercustommod:diamond_leggings_from_rer_carbon_fiber_leggings");
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.DIAMOND_BOOTS)
+                .requires(ModTags.Items.RER_CARBON_FIBER_BOOTS)
+                .unlockedBy("has_rer_carbon_fiber_helmet", has(ModTags.Items.RER_CARBON_FIBER_BOOTS))
+                .save(recipeOutput, "rercustommod:diamond_boots_from_rer_carbon_fiber_boots");
 
 
     }

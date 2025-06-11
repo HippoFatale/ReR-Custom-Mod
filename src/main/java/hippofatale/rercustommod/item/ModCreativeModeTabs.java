@@ -42,7 +42,7 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> REREVOLUTION_CUSTOM_ARMOR_TAB = CREATIVE_MODE_TAB.register("rerevolution_custom_armor_tab",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModItems.STEALTH_UNIT_IRON_HELMET.get()))
+                    .icon(() -> new ItemStack(ModItems.STEALTH_UNIT_CARBON_FIBER_HELMET.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(ReRCustomMod.MOD_ID, "rerevolution_custom_items_tab"))
                     .title(Component.translatable("creativetab.rercustommod.rerevolution_custom_armor"))
                     .displayItems((itemDisplayParameters, output) -> {

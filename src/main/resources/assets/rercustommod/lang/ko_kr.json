@@ -72,8 +72,9 @@
   "tooltip.rercustommod.vanguard_unit_bird_food": "§7드래곤도 먹을 수 있습니다! 아마도...?§r",
   "tooltip.rercustommod.stealth_unit_mre": "§7과자가 아니라 초코 케이크!§r",
 
+  "message.rerscustommod.rer_pet_food_item.not_your_animal": "다른 플레이어가 길들인 동물에는 사용할 수 없습니다.",
 
-  "entity.mccourse.jack_cat": "잭냥이",
-  "entity.mccourse.leeon_wolf": "리온 늑대",
-  "entity.mccourse.ryu_gull": "류매기"
+  "entity.rercustommod.jack_cat": "잭냥이",
+  "entity.rercustommod.leeon_wolf": "리온 늑대",
+  "entity.rercustommod.ryu_gull": "류매기"
 }

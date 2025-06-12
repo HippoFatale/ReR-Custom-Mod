@@ -72,8 +72,9 @@
   "tooltip.rercustommod.vanguard_unit_bird_food": "§7Probably edible for dragons too.§r",
   "tooltip.rercustommod.stealth_unit_mre": "§7It's chocolate cake, not a snack!§r",
 
+  "message.rerscustommod.rer_pet_food_item.not_your_animal": "NOT usable on animals tamed by other players.",
 
-  "entity.mccourse.jack_cat": "Jack Cat",
-  "entity.mccourse.leeon_wolf": "Leeon Wolf",
-  "entity.mccourse.ryu_gull": "Ryugull"
+  "entity.rercustommod.jack_cat": "Jack Cat",
+  "entity.rercustommod.leeon_wolf": "Leeon Wolf",
+  "entity.rercustommod.ryu_gull": "Ryugull"
 }

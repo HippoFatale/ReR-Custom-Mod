@@ -15,11 +15,6 @@ import net.neoforged.neoforge.event.entity.EntityAttributeCreationEvent;
 
 @EventBusSubscriber(modid = ReRCustomMod.MOD_ID, bus = EventBusSubscriber.Bus.MOD)
 public class ModEventBusEvents {
-//    @SubscribeEvent
-//    public static void registerLayers(EntityRenderersEvent.RegisterLayerDefinitions event) {
-//        event.registerLayerDefinition();
-//    }
-
     @SubscribeEvent
     public static void addPlayerLayers(EntityRenderersEvent.AddLayers event) {
         for (PlayerSkin.Model skin : event.getSkins()) {

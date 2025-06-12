@@ -68,9 +68,9 @@
 
 
   "tooltip.rercustommod.stealth_unit_cat_food": "§7신선한 생연어로 만들었습니다.§r",
-  "tooltip.rercustommod.enforcement_unit_wolf_food": "§7가지 추출물 0% 함유!§r",
-  "tooltip.rercustommod.vanguard_unit_bird_food": "§7드래곤도 먹을 수 있습니다.§r",
-  "tooltip.rercustommod.stealth_unit_mre": "§7미니 초코 케이크입니다.§r",
+  "tooltip.rercustommod.enforcement_unit_wolf_food": "§7가지 추출물 0% 함유§r",
+  "tooltip.rercustommod.vanguard_unit_bird_food": "§7드래곤도 먹을 수 있습니다! 아마도...?§r",
+  "tooltip.rercustommod.stealth_unit_mre": "§7과자가 아니라 초코 케이크!§r",
 
 
   "entity.mccourse.jack_cat": "잭냥이",

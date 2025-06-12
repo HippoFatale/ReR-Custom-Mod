@@ -30,12 +30,15 @@ public class ReRPetFoodItem extends Item {
             ServerLevel entityLevel = (ServerLevel) player.level();
 
             if (interactionTarget instanceof Cat && !(interactionTarget instanceof JackCatEntity) && stack.is(ModItems.STEALTH_UNIT_CAT_FOOD.get())) {
+                stack.shrink(1);
                 return ReplaceWithReREntity(entityLevel, entityPos, player, interactionTarget, ModEntities.JACK_CAT.get());
             }
             else if (interactionTarget instanceof Wolf && !(interactionTarget instanceof LeeonWolfEntity) && stack.is(ModItems.ENFORCEMENT_UNIT_WOLF_FOOD.get())) {
+                stack.shrink(1);
                 return ReplaceWithReREntity(entityLevel, entityPos, player, interactionTarget, ModEntities.LEEON_WOLF.get());
             }
             else if (interactionTarget instanceof Parrot && !(interactionTarget instanceof RyuGullEntity) && stack.is(ModItems.VANGUARD_UNIT_BIRD_FOOD.get())) {
+                stack.shrink(1);
                 return ReplaceWithReREntity(entityLevel, entityPos, player, interactionTarget, ModEntities.RYU_GULL.get());
             }
 
